@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9b66152d4c698714788a7fa5b1444746
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Refrigerator Deluxe
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 72cd7bfd10c287d489413eedf6c2530b, type: 3}
+  - {fileID: 12800000, guid: a8e07b901b6f44a49881e835ee900a99, type: 3}
+  - {fileID: 12800000, guid: 6847d5c3b4eb78c42ab4714cfc066112, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
