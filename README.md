@@ -5,6 +5,10 @@ Models and assets have been created for this project alongside any code implemen
 
 Audio was from free sources. Animations are rigged in Mixamo.
 
+# Itch.io Link
+
+https://hazno-dev.itch.io/ratz-v-aliens
+
 # Tools Used for Project
 
 - Unity HDRP
