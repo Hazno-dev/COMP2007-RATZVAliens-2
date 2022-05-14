@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D2B61A76-655A-6C6A-B149-27670DD977DE}</ProjectGuid>
+    <ProjectGuid>{B8AD1B48-56AD-FE30-5432-E400516F745D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualEffectGraph.Editor</AssemblyName>
@@ -242,10 +242,10 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Expressions\VFXExpressionBakeCurve.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Operators\Implementations\LookAt.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Operators\Implementations\Floor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Blocks\Implementations\Collision\CollisionCylinder.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Expressions\VFXExpressionTextureDim.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Blocks\Implementations\Velocity\VelocityDirection.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Contexts\Implementations\VFXBasicEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Blocks\Implementations\Collision\CollisionCylinder.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Operators\Implementations\TriangleWave.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Contexts\VFXContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Debug\VFXUIDebug.cs" />
@@ -427,8 +427,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Operators\Implementations\MeshVertexCount.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Operators\Implementations\Step.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Compiler\VFXCodeGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Parameters\VFXCurrentAttributeParameter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Contexts\Implementations\VFXLineStripOutput.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Parameters\VFXCurrentAttributeParameter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Models\Operators\Implementations\Deprecated\ValueNoise.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\Expressions\VFXAttributeExpression.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualeffectgraph@10.6.0\Editor\GraphView\VFXComponentBoard.cs" />
@@ -1142,35 +1142,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
-      <Project>{E4F88EBB-00A6-6B53-B9E0-4B9E8CB4D912}</Project>
+      <Project>{E13854DA-7F54-95F2-9979-F809644BD6EB}</Project>
       <Name>Unity.VisualEffectGraph.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{14B39FE7-45A6-8473-C299-FCAB63C6A5A9}</Project>
+      <Project>{F1488949-4578-F4BE-A91F-E8D80AB45CA4}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Runtime.csproj">
-      <Project>{6790982C-FE85-0B19-B3D4-AF9EAF975FC8}</Project>
+      <Project>{6A443849-C697-7B1F-35E9-4F2BC6084BC5}</Project>
       <Name>Unity.RenderPipelines.HighDefinition.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{862A3CBA-64CF-B5B6-5F5B-24719A240920}</Project>
+      <Project>{862168D9-9579-9B56-7D43-B52157B91609}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{025A33DE-403B-2C6B-2F71-0E3E9A1BBDE5}</Project>
+      <Project>{F13B78FB-10F8-F83E-3024-6F89B08FF957}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7D3B5375-E125-C57F-0A00-EB0F3012AB39}</Project>
+      <Project>{A5BDF758-9EB4-36F2-FA44-FD117A2C07E6}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{3D649F05-6353-77AD-FD1F-633127644D9A}</Project>
+      <Project>{95330273-1E0D-BAC4-8E32-D993F09191D6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

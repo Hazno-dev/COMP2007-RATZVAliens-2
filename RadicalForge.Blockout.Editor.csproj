@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D99E1437-939C-044B-14DB-670409BE95F3}</ProjectGuid>
+    <ProjectGuid>{5064B511-76E5-C8AF-1D90-944CEDE08843}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>RadicalForge.Blockout.Editor</AssemblyName>
@@ -695,23 +695,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="RadicalForge.Blockout.csproj">
-      <Project>{99AC8FEA-C160-79B3-9B67-20D9638B9CFF}</Project>
+      <Project>{2A7F93B8-D34B-B212-57DC-A751F638FDB1}</Project>
       <Name>RadicalForge.Blockout</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{025A33DE-403B-2C6B-2F71-0E3E9A1BBDE5}</Project>
+      <Project>{F13B78FB-10F8-F83E-3024-6F89B08FF957}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7D3B5375-E125-C57F-0A00-EB0F3012AB39}</Project>
+      <Project>{A5BDF758-9EB4-36F2-FA44-FD117A2C07E6}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{3D649F05-6353-77AD-FD1F-633127644D9A}</Project>
+      <Project>{95330273-1E0D-BAC4-8E32-D993F09191D6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

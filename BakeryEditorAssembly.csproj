@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{669C2825-099E-748F-A380-2F7C9D1FB613}</ProjectGuid>
+    <ProjectGuid>{F2B3E47A-28A5-88C0-0092-22D7D8008E4C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>BakeryEditorAssembly</AssemblyName>
@@ -53,42 +53,42 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftUVGBufferGen.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLMGroupSelectorInspector.cs" />
     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSaveSettingsMenu.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftBuildLights.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftCreateMenu.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSavePadding.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSceneView.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftRestorePaddingMenu.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlasEnable.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDefine.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightmappedPrefabInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSettingsProvider.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftTextureProcessor.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSectorInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightingDataGen.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftShaderTweaks.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftAdditionalConfig.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDetectSettings.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftVolumeInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlas.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftPointLightInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftRenderLightmap.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSkyLightInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDirectLightInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightMeshInspector.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightmapsStorageInspector.cs" />
     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftClient.cs" />
     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftBuildGraphics.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftFixResettingGlobalsOnSave.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftModelPostProcessor.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftErrorCodes.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDDS.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSavedPadding2.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLMGroupSelectorInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightmappedPrefabInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSectorInspector.cs" />
     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftClearMenu.cs" />
-    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLMGroupInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftCreateMenu.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlasEnable.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftTextureProcessor.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftRenderLightmap.cs" />
     <Compile Include="Assets\Editor\x64\Bakery\scripts\ftUpdater.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSavedPadding2.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftBuildLights.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftUVGBufferGen.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftShaderTweaks.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftPointLightInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSavePadding.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDetectSettings.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlas.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftRestorePaddingMenu.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightingDataGen.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftModelPostProcessor.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightMeshInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftVolumeInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSettingsProvider.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftErrorCodes.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSkyLightInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftSceneView.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDefine.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDirectLightInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftFixResettingGlobalsOnSave.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftDDS.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLightmapsStorageInspector.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftAdditionalConfig.cs" />
+    <Compile Include="Assets\Editor\x64\Bakery\scripts\ftLMGroupInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Editor\x64\Bakery\scripts\xatlas\xatlas-license.txt" />
@@ -705,23 +705,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="BakeryRuntimeAssembly.csproj">
-      <Project>{5DC3A2CE-022C-9BE5-B204-446A4FFBBCDB}</Project>
+      <Project>{DF8E17F3-386B-7AB1-C988-C5FE1772E52F}</Project>
       <Name>BakeryRuntimeAssembly</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{025A33DE-403B-2C6B-2F71-0E3E9A1BBDE5}</Project>
+      <Project>{F13B78FB-10F8-F83E-3024-6F89B08FF957}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7D3B5375-E125-C57F-0A00-EB0F3012AB39}</Project>
+      <Project>{A5BDF758-9EB4-36F2-FA44-FD117A2C07E6}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{3D649F05-6353-77AD-FD1F-633127644D9A}</Project>
+      <Project>{95330273-1E0D-BAC4-8E32-D993F09191D6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4CA46CA7-EC61-71A8-3D71-78FBB3697503}</ProjectGuid>
+    <ProjectGuid>{CD9D0A99-0EB0-DC76-6D02-80A82BC12C64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -95,6 +95,7 @@
     <Compile Include="Assets\TrashInteraction.cs" />
     <Compile Include="Assets\CrystalInteraction.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\VolumeChanger.cs" />
     <Compile Include="Assets\SampleSceneAssets\Scripts\LookWithMouse.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\CanvasManager.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets\Interaction.cs" />
     <Compile Include="Assets\EnemyScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Turret.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -115,8 +117,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\AudioManager.cs" />
-    <Compile Include="Assets\VolumeChanger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -736,140 +736,140 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="BakeryRuntimeAssembly.csproj">
-      <Project>{5DC3A2CE-022C-9BE5-B204-446A4FFBBCDB}</Project>
+      <Project>{DF8E17F3-386B-7AB1-C988-C5FE1772E52F}</Project>
       <Name>BakeryRuntimeAssembly</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Editor.csproj">
-      <Project>{D2B61A76-655A-6C6A-B149-27670DD977DE}</Project>
+      <Project>{B8AD1B48-56AD-FE30-5432-E400516F745D}</Project>
       <Name>Unity.VisualEffectGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{FB8C5836-DEDC-CBAD-2270-CE7013F28691}</Project>
+      <Project>{19E7662C-9C0F-0244-30DC-2409C829F56B}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{EE34FE9D-CDBF-9194-45CB-FC34CE0C64A9}</Project>
+      <Project>{497C5728-C6EE-099E-BDA7-3C39A97F3ADA}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{DEAF67E1-66FE-521B-CEFB-4DAA4AB4A671}</Project>
+      <Project>{B6563ACB-8DF7-8B0E-D2EE-A8D078D4B752}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
-      <Project>{CCF735E6-A1A6-3DA7-C288-AFAEDF6A4362}</Project>
+      <Project>{A1477927-D2AF-C8CE-EFE8-17DD0B12718C}</Project>
       <Name>Unity.ProBuilder.AddOns.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
-      <Project>{E4F88EBB-00A6-6B53-B9E0-4B9E8CB4D912}</Project>
+      <Project>{E13854DA-7F54-95F2-9979-F809644BD6EB}</Project>
       <Name>Unity.VisualEffectGraph.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="RadicalForge.Blockout.Editor.csproj">
-      <Project>{D99E1437-939C-044B-14DB-670409BE95F3}</Project>
+      <Project>{5064B511-76E5-C8AF-1D90-944CEDE08843}</Project>
       <Name>RadicalForge.Blockout.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{14B39FE7-45A6-8473-C299-FCAB63C6A5A9}</Project>
+      <Project>{F1488949-4578-F4BE-A91F-E8D80AB45CA4}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{7FC1F31B-6F0B-A5AF-8B38-B40D601AB025}</Project>
+      <Project>{B949B403-D390-74C4-0074-E0976F75671C}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Runtime.csproj">
-      <Project>{6790982C-FE85-0B19-B3D4-AF9EAF975FC8}</Project>
+      <Project>{6A443849-C697-7B1F-35E9-4F2BC6084BC5}</Project>
       <Name>Unity.RenderPipelines.HighDefinition.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{258C97AB-B229-8B90-7D6A-F56E29F399C4}</Project>
+      <Project>{C9820620-A68F-73B6-0244-2A693DB6A56A}</Project>
       <Name>Unity.Searcher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{5D646220-7578-AAC1-D827-255C55969764}</Project>
+      <Project>{AC4A1908-9B8A-F507-4387-6EFB2088B273}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{FF6EB9FB-3D32-3E8B-8C2B-12566607ACD7}</Project>
+      <Project>{C77285B0-0DC8-584A-133D-2C073D2C4A1F}</Project>
       <Name>Unity.ProBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Editor.csproj">
-      <Project>{5B0F16A8-7332-AEDF-0DD2-F86EAB3E7AA5}</Project>
+      <Project>{4C10A0CA-FD3D-F315-9457-9C8AF453FF00}</Project>
       <Name>Unity.RenderPipelines.HighDefinition.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
-      <Project>{3DB86195-9B1D-FD66-0F31-3662D651D87E}</Project>
+      <Project>{EBFD8DF4-E46B-178C-205C-130791A532C7}</Project>
       <Name>Unity.ProBuilder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{025A33DE-403B-2C6B-2F71-0E3E9A1BBDE5}</Project>
+      <Project>{F13B78FB-10F8-F83E-3024-6F89B08FF957}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{089535D3-65E6-5483-72E1-433783197EA7}</Project>
+      <Project>{1F1F22CB-0174-6685-5222-A8321D513DAE}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{904CA484-C5E6-8B8F-9CCB-639EE299F991}</Project>
+      <Project>{AC14FD7A-321F-C78B-A688-723302B72E27}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{5B756EB0-295A-AABA-E64F-B8269B9237EA}</Project>
+      <Project>{35869F97-D640-0090-B863-DE5E89E8FF5E}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="BakeryEditorAssembly.csproj">
-      <Project>{669C2825-099E-748F-A380-2F7C9D1FB613}</Project>
+      <Project>{F2B3E47A-28A5-88C0-0092-22D7D8008E4C}</Project>
       <Name>BakeryEditorAssembly</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.Editor.csproj">
-      <Project>{2C1D0E2E-54BD-F5CE-06C9-6A5A20535A81}</Project>
+      <Project>{39F535FA-5FBD-B5CA-3C81-2A58F3D1A3EB}</Project>
       <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{BB35B3FE-565F-05B8-B0C9-4A67765BC6D1}</Project>
+      <Project>{D1F8704D-BBEC-2440-783A-F548335482B7}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{862A3CBA-64CF-B5B6-5F5B-24719A240920}</Project>
+      <Project>{862168D9-9579-9B56-7D43-B52157B91609}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="RadicalForge.Blockout.csproj">
-      <Project>{99AC8FEA-C160-79B3-9B67-20D9638B9CFF}</Project>
-      <Name>RadicalForge.Blockout</Name>
-    </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
-      <Project>{E117126A-9B7A-48DA-FE52-A6EC814E68C4}</Project>
+      <Project>{6E2ED9CB-99B3-9202-9310-9E66841846C4}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{4105D9FB-A126-4669-DB26-68F9D2E9BCEC}</Project>
+      <Project>{DC67813C-3E92-44E7-3D5C-E33A965C0344}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
-      <Project>{18A096C1-F87C-D9B1-0C32-8265290F4BD3}</Project>
+      <Project>{D53354A4-CDD1-66DC-9F3E-25E583DA1B1E}</Project>
       <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{6E4CFBE2-CC14-7ABA-685B-0D6CAAABC862}</Project>
+      <Project>{66D14A79-4297-96C6-48A4-4CC9E196E902}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{DE36F34D-F6A5-EC33-BF00-DBCE25FC30EA}</Project>
+      <Project>{839B710E-0271-7B2B-EF29-9ECD5D29B608}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj">
-      <Project>{70F47C9C-ECB6-E20C-D7C9-8611A33104DB}</Project>
+      <Project>{5EA0090B-48FB-687B-9686-CF49FD4F8A6F}</Project>
       <Name>Unity.RenderPipelines.HighDefinition.Config.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProGrids.csproj">
-      <Project>{7E8F15ED-C4E5-C30D-E97F-248CD60A37B1}</Project>
+      <Project>{47EBDB54-8C48-222B-ABA7-8BDD34B5019A}</Project>
       <Name>Unity.ProGrids</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{F35D8C26-508C-0D7B-00CD-5E7E98250E6E}</Project>
+      <Project>{B56304F7-8873-46FE-FBB1-F1769B1D4B34}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="RadicalForge.Blockout.csproj">
+      <Project>{2A7F93B8-D34B-B212-57DC-A751F638FDB1}</Project>
+      <Name>RadicalForge.Blockout</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

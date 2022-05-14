@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7805F7F7-F4FB-E870-EB34-20173F8D7B55}</ProjectGuid>
+    <ProjectGuid>{45397A08-FB1C-C79C-2952-DB3366F77752}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualEffectGraph.Runtime</AssemblyName>
@@ -775,15 +775,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{14B39FE7-45A6-8473-C299-FCAB63C6A5A9}</Project>
+      <Project>{F1488949-4578-F4BE-A91F-E8D80AB45CA4}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{089535D3-65E6-5483-72E1-433783197EA7}</Project>
+      <Project>{1F1F22CB-0174-6685-5222-A8321D513DAE}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

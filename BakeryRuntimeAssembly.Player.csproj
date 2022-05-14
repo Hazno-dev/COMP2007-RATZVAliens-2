@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9C702623-422B-43E2-C64D-91520EF94176}</ProjectGuid>
+    <ProjectGuid>{54D727A9-4B49-57C9-C9D7-2D9E6F2B01F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>BakeryRuntimeAssembly</AssemblyName>
@@ -54,27 +54,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Bakery\ftLocalStorage.cs" />
-    <Compile Include="Assets\Bakery\examples\scripts\VolumeTestScene2.cs" />
-    <Compile Include="Assets\Bakery\BakerySectorCapture.cs" />
-    <Compile Include="Assets\Bakery\ftLightmapsStorage.cs" />
-    <Compile Include="Assets\Bakery\BakerySkyLight.cs" />
-    <Compile Include="Assets\Bakery\ftGlobalStorage.cs" />
-    <Compile Include="Assets\Bakery\BakeryLightMesh.cs" />
+    <Compile Include="Assets\Bakery\examples\scripts\BakeryVolumeTrigger.cs" />
+    <Compile Include="Assets\Bakery\BakerySector.cs" />
     <Compile Include="Assets\Bakery\shader\Editor\BakeryShaderGUI.cs" />
     <Compile Include="Assets\Bakery\BakeryLightmapGroup.cs" />
-    <Compile Include="Assets\Bakery\BakeryVolume.cs" />
-    <Compile Include="Assets\Bakery\BakeryLightmapGroupSelector.cs" />
-    <Compile Include="Assets\Bakery\ftUniqueIDRegistry.cs" />
     <Compile Include="Assets\Bakery\examples\scripts\BakeryVolumeReceiver.cs" />
-    <Compile Include="Assets\Bakery\BakeryAlwaysRender.cs" />
-    <Compile Include="Assets\Bakery\BakeryProjectSettings.cs" />
-    <Compile Include="Assets\Bakery\BakeryDirectLight.cs" />
-    <Compile Include="Assets\Bakery\BakeryPointLight.cs" />
-    <Compile Include="Assets\Bakery\BakerySector.cs" />
-    <Compile Include="Assets\Bakery\BakeryPackAsSingleSquare.cs" />
-    <Compile Include="Assets\Bakery\ftLightmaps.cs" />
-    <Compile Include="Assets\Bakery\examples\scripts\BakeryVolumeTrigger.cs" />
     <Compile Include="Assets\Bakery\BakeryLightmappedPrefab.cs" />
+    <Compile Include="Assets\Bakery\ftGlobalStorage.cs" />
+    <Compile Include="Assets\Bakery\examples\scripts\VolumeTestScene2.cs" />
+    <Compile Include="Assets\Bakery\BakeryDirectLight.cs" />
+    <Compile Include="Assets\Bakery\BakeryAlwaysRender.cs" />
+    <Compile Include="Assets\Bakery\BakeryPointLight.cs" />
+    <Compile Include="Assets\Bakery\ftUniqueIDRegistry.cs" />
+    <Compile Include="Assets\Bakery\BakeryProjectSettings.cs" />
+    <Compile Include="Assets\Bakery\ftLightmapsStorage.cs" />
+    <Compile Include="Assets\Bakery\BakeryLightMesh.cs" />
+    <Compile Include="Assets\Bakery\BakeryVolume.cs" />
+    <Compile Include="Assets\Bakery\BakeryPackAsSingleSquare.cs" />
+    <Compile Include="Assets\Bakery\BakerySectorCapture.cs" />
+    <Compile Include="Assets\Bakery\BakerySkyLight.cs" />
+    <Compile Include="Assets\Bakery\BakeryLightmapGroupSelector.cs" />
+    <Compile Include="Assets\Bakery\ftLightmaps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Bakery\ftUnlitTerrain.shader" />
@@ -654,7 +654,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

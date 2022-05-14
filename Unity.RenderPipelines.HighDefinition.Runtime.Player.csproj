@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D19D41D1-2513-D75B-CBE5-A83A7B980660}</ProjectGuid>
+    <ProjectGuid>{FDEF8BC7-03B7-60B0-6E15-604C78CA81E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RenderPipelines.HighDefinition.Runtime</AssemblyName>
@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\Sky\SkyUpdateContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\RenderPipeline\HDGPUAsyncTask.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\RenderPipeline\Camera\HDAdditionalCameraData.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\Material\SubsurfaceScattering\SubsurfaceScatteringManager.cs" />
@@ -351,7 +352,6 @@
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\Lighting\LightDefinition.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\Lighting\Shadow\HDDynamicShadowAtlas.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\Lighting\VolumetricLighting\VolumetricLightingController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\Sky\SkyUpdateContext.cs" />
     <Compile Include="Library\PackageCache\com.unity.render-pipelines.high-definition@10.6.0\Runtime\RenderPipeline\Utility\HDUtils.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1319,19 +1319,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{5D646220-7578-AAC1-D827-255C55969764}</Project>
+      <Project>{AC4A1908-9B8A-F507-4387-6EFB2088B273}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj">
-      <Project>{70F47C9C-ECB6-E20C-D7C9-8611A33104DB}</Project>
+      <Project>{5EA0090B-48FB-687B-9686-CF49FD4F8A6F}</Project>
       <Name>Unity.RenderPipelines.HighDefinition.Config.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
-      <Project>{E4F88EBB-00A6-6B53-B9E0-4B9E8CB4D912}</Project>
+      <Project>{E13854DA-7F54-95F2-9979-F809644BD6EB}</Project>
       <Name>Unity.VisualEffectGraph.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{D74EF69E-6EBE-1728-EB6E-4FBEDBD239EF}</Project>
+      <Project>{F632ED5F-429F-1E8D-2356-DE6A7A9B2DDB}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

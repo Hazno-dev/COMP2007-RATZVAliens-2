@@ -415,7 +415,19 @@ MonoBehaviour:
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
-  uvOverlapAssetList: 00000000ffffffff
+  - Assets/Blockout/Resources/Blockout/Area_Models/Area_Comment_Corner.FBX
+  - Assets/Blockout/Resources/Blockout/Area_Models/Area_Comment_Corner_Line.FBX
+  - Assets/New folder/torustest.obj
+  - Assets/RoadFloor.obj
+  - Assets/SampleSceneAssets/Meshes/Props/Furniture/Models/Barstool_01.fbx
+  - Assets/SampleSceneAssets/Meshes/Structure/Model/FR_Platform_01.fbx
+  - Assets/SampleSceneAssets/Meshes/Structure/Model/TR_CurveWall_01.fbx
+  - Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Cylinder.fbx
+  - Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Disc.fbx
+  - Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/HumanEyeModel.fbx
+  - Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Quad.fbx
+  - Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Mesh/Sphere.fbx
+  uvOverlapAssetList: 00000000ffffffff01010000010100000101000000000000000000000101000001010000ffffffff00000000010100000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3080
