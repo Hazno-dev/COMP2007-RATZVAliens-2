@@ -35,6 +35,3 @@ https://hazno-dev.itch.io/ratz-v-aliens
 
 - https://polyhaven.com/a/satara_night 
 
-# Notes
-
-Some files may be missing from this Github repository due to Github not easily supporting 100mb+ files. 
